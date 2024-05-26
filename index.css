@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom, #4CAF50, #2E8B57, #87CEEB);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: #000000;
+    font-size: 1.2em;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #246a42;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: rgba(36, 106, 66, 0.6);
+    padding: 10px 0;
+    transition: padding 0.3s, background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: color 0.3s, background-color 0.3s, padding 0.3s, border-radius 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0adeb4;
+    background-color: rgba(8, 255, 144, 0.1);
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+nav:hover {
+    background-color: rgba(36, 106, 66, 0.8);
+    padding: 20px 0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eeeeee;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: rgba(3, 8, 14, 0.486);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.hero button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background: rgb(219, 249, 244);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #18eb9a;
+}
+
+.section {
+    flex: 1;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(51, 77, 101);
+    color: #f4f4f4;
+    width: 100%;
+    position: relative;
+}
+
+footer .para {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .members {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .members li {
+    margin: 0 15px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-top:hover {
+    background-color: #eeeeee;
+}
+
+h1, h2, p, ul, ol {
+    text-align: justify;
+}
+.content-box {
+    background-color: rgb(1, 17, 32);
+    padding: 20px;
+    border-radius: 10px;
+}
+.content-box h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.content-box button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: rgba(3, 8, 14, 0.486);
+    color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.content-box button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#timeline {
+    max-width: 800px;
+    margin: auto;
+}
+.event {
+    margin-bottom: 20px;
+}
+#timeline .event img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height automatically to maintain aspect ratio */
+}
+
+#sources {
+    max-width: 800px;
+    margin: auto;
+}
+.event {
+    margin-bottom: 20px;
+}
+#sources .event img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height automatically to maintain aspect ratio */
+}
